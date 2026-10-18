@@ -6,4 +6,3 @@
 
 # Debugging and build symbols (especially when cross-compiling for MSVC/Windows)
 *.pdb
-
