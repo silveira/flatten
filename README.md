@@ -22,7 +22,7 @@ folder/
 ├─ apple.png
 ├─ tobby.jpg
 ├─ lola.zip
-└── phone.txt
+└─ phone.txt
 ```
 
 `flatten` is a cross-platform CLI tool that extracts all files from nested subfolders and moves them to the main directory's root. It safely processes files with spaces or special characters, automatically renames files to prevent overwriting during collisions, and deletes the empty subdirectories left behind.
