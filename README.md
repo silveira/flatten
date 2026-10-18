@@ -34,3 +34,8 @@ cargo build --release
 ./target/release/flatten myfolder
 ```
 
+## Testing
+
+```
+cargo test
+```
