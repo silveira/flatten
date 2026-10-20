@@ -34,6 +34,30 @@ cargo build --release
 ./target/release/flatten myfolder
 ```
 
+### Dry run
+
+Use `--dryrun` (or `-n`) to preview the changes without touching anything on
+disk. It prints where each file currently is and where it would be moved to:
+
+```
+$ ./target/release/flatten --dryrun myfolder
+
+Dry run: no files were moved.
+
+Moves:
+  animals/cats/tobby.jpg -> tobby.jpg
+  animals/lola.zip -> lola.zip
+  fruits/banana.png -> banana.png
+  fruits/apple.png -> apple.png
+
+Directories to remove:
+  animals/cats
+  animals
+  fruits
+
+4 file(s) would be moved, 3 directory(ies) would be removed.
+```
+
 ## Testing
 
 ```
